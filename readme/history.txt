@@ -1,3 +1,6 @@
 
+2019.01.23
+- handle file download error 404
+
 2016.03
-init
+initial

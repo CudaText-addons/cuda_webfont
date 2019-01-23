@@ -14,15 +14,20 @@ SPEC_REFRESH = 0
 SPEC_DOWNLOAD = 1
 SPEC_SITE = 2  
 
-def get_dict(refresh):  
-    fn = get_fonts_file(refresh)
+def get_dict(refresh):
+    try:
+        fn = get_fonts_file(refresh)
+    except:
+        fn = ''
+    msg_status('')
+
     if not fn:
-        msg_box('Cannot download font list', MB_OK)
+        msg_box('Cannot download font list', MB_OK+MB_ICONWARNING)
         return
 
     j = json.loads(open(fn).read())
     if not j:
-        msg_box('Cannot parse font list', MB_OK)
+        msg_box('Cannot parse font list', MB_OK+MB_ICONWARNING)
         return
         
     j = sorted(j, key = lambda item: item['name'])
