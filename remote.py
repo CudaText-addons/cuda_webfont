@@ -3,8 +3,8 @@ import urllib.request
 import tempfile
 from cudatext import *
 
-URL_LIST = 'http://webfont.ru/api/newlist.json'
-URL_SITE = 'http://webfont.ru/'
+URL_LIST = 'https://fontstorage.com/api/list.json'
+URL_SITE = 'https://fontstorage.com/'
 TEMP_FN = 'cudatext_webfont.json'
  
 def get_url(url, fn):

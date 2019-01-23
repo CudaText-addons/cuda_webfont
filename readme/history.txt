@@ -1,6 +1,7 @@
 
 2019.01.23
-- handle file download error 404
++ use fresh download URL
++ handle file download error 404
 
 2016.03
 initial
