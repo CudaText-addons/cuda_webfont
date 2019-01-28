@@ -1,5 +1,5 @@
 plugin for CudaText.
-gives menu to work with CSS fonts from site http://webfont.ru
+gives menu to work with CSS fonts from site https://fontstorage.com/
 it is menu like in similar plugin for Sublime Text.
 
 requires CSS lexer in the current tab, and menu allows to 
