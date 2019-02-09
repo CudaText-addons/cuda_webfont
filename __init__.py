@@ -37,8 +37,7 @@ def do_menu(j, specials):
     names = [item['name'] for item in j]
     if specials:
         names = SPEC + names
-    names = '\n'.join(names)
-    return dlg_menu(MENU_LIST, names)
+    return dlg_menu(MENU_LIST, names, caption='FontStorage')
 
 class Command:
     def run(self):

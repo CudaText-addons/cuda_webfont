@@ -1,11 +1,11 @@
 [info]
-title=WebFont
-desc=Inserts into CSS code usage of external fonts from webfont.ru site. You can use these fonts as usual in CSS.
+title=FontStorage
+desc=In CSS code, inserts usage of external fonts from FontStorage.com site
 type=cudatext-plugin
 subdir=cuda_webfont
 homepage=https://github.com/CudaText-addons/cuda_webfont
 
 [item1]
 section=commands
-caption=WebFont
+caption=FontStorage
 method=run

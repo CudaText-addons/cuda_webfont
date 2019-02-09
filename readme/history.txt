@@ -1,4 +1,7 @@
 
+2019.02.09
++ changed name of plugin to FontStorage
+
 2019.01.23
 + use fresh download URL
 + handle file download error 404
