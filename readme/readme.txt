@@ -6,5 +6,5 @@ requires CSS lexer in the current tab, and menu allows to
 a) download font from site to local folder
 b) insert CSS lines (at caret position), which correctly refer to downloaded files
 
-author: Alexey (CudaText)
+author: Alexey Torgashin (CudaText)
 license: MIT
