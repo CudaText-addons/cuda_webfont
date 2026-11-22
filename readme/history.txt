@@ -1,10 +1,12 @@
+2026.11.21
+- fix: avoid deprecated API: get_filename
 
 2019.02.09
-+ changed name of plugin to FontStorage
++ add: changed name of plugin to FontStorage
 
 2019.01.23
-+ use fresh download URL
-+ handle file download error 404
++ add: use fresh download URL
++ add: handle file download error 404
 
 2016.03
-initial
+initial version

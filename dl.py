@@ -16,7 +16,7 @@ def find_css_in_zip(fn_zip):
     
 def do_download(url):
     fn_zip = os.path.join(tempfile.gettempdir(), 'cudatext_webfont.zip')
-    fn_editor = ed.get_filename()
+    fn_editor = ed.get_prop(PROP_FN, '')
     dir_editor = os.path.dirname(fn_editor)
     eol = '\n'
      
